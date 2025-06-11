@@ -1,0 +1,21 @@
+2025-06-11 14:13:12.172 +04 [56832] FATAL:  lock file "postmaster.pid" already exists
+2025-06-11 14:13:12.172 +04 [56832] HINT:  Is another postmaster (PID 56819) running in data directory "/opt/homebrew/var/postgresql@14"?
+2025-06-11 14:14:30.219 +04 [57356] LOG:  starting PostgreSQL 14.18 (Homebrew) on aarch64-apple-darwin23.6.0, compiled by Apple clang version 16.0.0 (clang-1600.0.26.6), 64-bit
+2025-06-11 14:14:30.221 +04 [57356] LOG:  listening on IPv6 address "::1", port 5432
+2025-06-11 14:14:30.221 +04 [57356] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2025-06-11 14:14:30.221 +04 [57356] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2025-06-11 14:14:30.223 +04 [57357] LOG:  database system was shut down at 2025-06-11 14:14:22 +04
+2025-06-11 14:14:30.226 +04 [57356] LOG:  database system is ready to accept connections
+2025-06-11 14:14:42.915 +04 [57373] FATAL:  database "sergejleonov" does not exist
+2025-06-11 14:16:03.695 +04 [57396] FATAL:  role "postgres" does not exist
+2025-06-11 14:16:30.803 +04 [57413] FATAL:  database "sergejleonov" does not exist
+2025-06-11 14:17:16.287 +04 [57425] ERROR:  syntax error at or near "12345" at character 72
+2025-06-11 14:17:16.287 +04 [57425] STATEMENT:  CREATE ROLE postgres WITH LOGIN SUPERUSER CREATEDB CREATEROLE PASSWORD 12345
+	CREATE DATABASE transport;
+2025-06-11 14:29:37.559 +04 [57749] FATAL:  database "sergejleonov" does not exist
+2025-06-11 14:31:01.614 +04 [57792] FATAL:  database "sergejleonov" does not exist
+2025-06-11 15:21:43.327 +04 [58731] ERROR:  column "last_failure_date" of relation "objects" does not exist at character 57
+2025-06-11 15:21:43.327 +04 [58731] STATEMENT:  
+	            INSERT INTO objects (id, type, mtbf, mttr, last_failure_date, availability)
+	            VALUES (5224217, 'открытый', 700.0, 10.0, '2025-01-01', 0.9859)
+	        
